@@ -1,0 +1,623 @@
+
+.home-contaner{
+    width: 100%;
+}
+.main-page-view{
+    width: 100%;
+    height: 75vh;
+      background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+}
+
+
+.nav-container{
+    width: 90%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  
+}
+.left-container{
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items-container{
+    
+}
+.nav-list{
+    display: flex;
+}
+.list-item{
+    list-style-type: none;
+    margin-left: 20px;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 600;
+    line-height: 22px;
+    color: #1f2021;
+    cursor: pointer;
+}
+.buy-t-btn{
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 14px;
+    color: white;
+    border: unset;
+    background-color: #162A1C;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+  
+}
+.home-text{
+    margin-top: 30px;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.dance{
+    margin-left: 30px;
+}
+.home-featured{
+    font-size: 5rem;
+       color: #1d1e21;
+       font-family: 'Libre Baskerville', serif;
+       font-weight: bold;
+    letter-spacing: 4px;
+}
+.join-beta{
+    margin-top: .7em;
+    width: 40%;
+    min-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #152D15;
+    border-radius: 15px;
+}
+.join-box{
+    padding: 1em 2em;
+    width: 70%;
+    border: unset;
+    background-color: inherit;
+  
+}
+
+.join-box:focus{
+    outline: none;
+}
+.beta-btn{
+    padding: .5em 1.6em;
+    margin-left: 0px;
+    border-radius: 14px;
+    border: unset;
+    background-color: #162A1C;
+    font-family: 'Noto Sans', sans-serif;
+
+    color:  #FFFFFF;
+    cursor: pointer;
+    
+}
+.right-card{
+    width: 300px;
+    height: 300px;
+    
+    
+}
+.buy-ticket-img{
+    -webkit-transform:rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    transform: rotate(10deg);
+    cursor: pointer;
+  }
+  .search-box{
+    background-color: #F6F5EA;
+   display: flex;
+   align-items: center;
+   width: 86%;
+   margin: 0 auto;
+   padding: 15px 20px;
+   border-radius: 14px;
+  }
+  .search-container{
+  margin-top: 10px;
+     
+  }
+  .location-img, .type-img{
+      width: 25px;
+  }
+  .search-inpu-box{
+      width: 400px;
+  }
+  .search-input{
+      padding: .1em 2em;
+      width: 100%;
+      line-height: 10px; 
+     
+      background-color: inherit;
+      border: unset;
+  }
+  .search-input:focus{
+      outline: none;
+  }
+
+  .date-picker{
+      width: 200px;
+      margin-left: 5px;
+      display: flex;
+      align-items: center;
+  }
+  .date-input{
+      width: 100%;
+      padding: 8px 20px;
+      border-radius: 14px;
+      border: unset;
+  }
+  .date-input:focus{
+      outline: none;
+  }
+  
+  .location-container{
+      width: 150px;
+        
+      display: flex;
+      margin-left: 6px;
+
+  }
+  .location-input{
+    width: 90%;
+    padding: 2px 12px;
+    border: unset;
+    
+  }
+  .location-input:focus{
+   outline: none;
+  }
+  .event-type-container{
+    width: 150px;
+   
+    display: flex;
+    margin-left: 6px;
+  }
+  .event-search-btn{
+      padding: 14px 25px;
+      font-size: .9rem;
+      color: white;
+      background-color: #192224;
+      margin-left: 40px;
+      border-radius: 14px;
+      border: unset;
+      cursor: pointer;
+
+  }
+  .popular-container{
+      background-color:  #F6F5EA;
+      
+      width: 100%;
+      
+      padding: 15px 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    
+  }
+ 
+  .popular-header{
+      width: 86%;
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+      align-items: center;
+      background-color: inherit;
+      padding: 15px 2px;
+  }
+  .popular-heading{
+      text-transform: capitalize;
+      color: red;
+     
+  }
+  .carousel-btns{
+      width: 100px;
+      display: flex;
+      justify-content: space-between;
+      cursor: pointer;
+  }
+  .popular-body{
+      display: flex;
+      overflow: hidden;
+      
+  }
+  .event-card-container{
+      
+      width: 400px;
+      margin-left: 10px;
+      background-color: inherit;
+      position: relative;
+      
+  }
+  .card-cover{
+      width: 100%;
+     
+      
+  }
+  .event-image{
+      width: 100%;
+      min-width: 370px;
+      max-height: 200px;
+      object-fit: cover;
+      border-radius: 14px 14px 0px 0px;
+      cursor: pointer;
+    
+  }
+  .event-card-bottom{
+      display: flex;
+      justify-content: space-between;
+      background-color: #F6F5EA;
+     
+      width: 95%;
+       margin: 0 auto;
+       border-radius: 14px;
+      position: absolute;
+       top: 170px;
+        left: 10px;
+      padding: 12px 20px;
+
+      }
+      .event-card-title{
+        text-transform: capitalize;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+        color: #1d1e21;
+        font-weight: bold;
+        line-height: 18px;
+      }
+      
+     
+      .ticket-price{
+        font-family: 'Noto Sans', sans-serif;
+    line-height: 18px;
+    padding: 5px 2px;
+    font-weight: bold;
+    
+      }
+      .price-symbol{
+      text-transform: uppercase;
+      margin-left: 5px;
+      font-weight: bolder;
+      }
+      .card-buy-btn{
+          padding: 8px 20px;
+          font-family: 'Noto Sans', sans-serif;
+          border-radius: 14px;
+          border: unset;
+          color: white;
+          background-color: #252224;
+          text-transform: capitalize;
+          cursor: pointer;
+      }
+     .slide-card{
+         background-color: inherit;
+         width: 400px;
+      margin-left: 10px;
+      margin-bottom: 2px;
+     }
+     .left-btn, .next-btn{
+        
+         cursor: pointer;
+         padding: 1px 20px;
+         font-size: 1rem;
+         border: unset;
+     }
+     .home-footer{
+         width: 92%;
+         display: flex;
+         margin: 0 auto;
+         background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+         justify-content: space-between;
+         align-items: center;
+        padding: 15px 20px;
+     }
+    .footer-title{
+        font-family: 'Noto Sans', sans-serif;
+        text-transform: capitalize;
+    }
+    .home-footer-left{
+        display: flex;
+    }
+    .home-footer-right{
+        display: flex;
+        width: 20%;
+     
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+    }
+    .marketplace-container{
+        background-color: #f0f8ff;
+       
+        
+        width: 100%;
+        margin: 0 auto;
+       
+    }
+    
+    .marketplace-header-search{
+        width: 90%;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-top: 30px;
+       
+        margin-bottom: 0px;
+    }
+    .market-title{
+        
+        font-family: 'Trirong', serif;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .marketplace-body{
+       display: flex;
+       flex-wrap: wrap;
+         background-color: inherit;
+       margin: 0 auto;
+       width: 99%;
+     
+    }
+    .market-card-container{
+        margin: 20px;
+    }
+    .faqs-title{
+        text-align: center;
+        font-family: 'Libre Baskerville', serif;
+        margin-bottom: 20px;
+    }
+    .faqs-container{
+        background-color: #f0f9ff;
+        
+    }
+    .faqs-body{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+   
+    .ticket-page-container{
+        background-color: #f0f8ff;
+    }
+    .ticket-page-body{
+      display: flex;
+      width: 80%;
+      justify-content: space-between;  
+      margin: 0 auto;
+      border: 2px solid #f5f5f5;
+    }
+    .ticket-page-right{
+        width: 35%;
+        height: 400px;
+        padding: 2em;
+       
+        
+    }
+    .event-ticketpage-title{
+        font-size: 1.7rem;
+        font-family: 'Trirong', serif;
+
+    }
+    .ticket-organizer{
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1rem;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .definer{
+        text-transform: capitalize;
+    }
+    .ticket-cost{
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1rem;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .ticket-location{
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1rem;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .ticket-start{
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1rem;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .ticket-end{
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1rem;
+        font-family: 'Noto Sans', sans-serif;
+    
+    }
+    .ticket-social-container{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1rem;
+      
+       
+    }
+    .ticket-social-title{
+      text-transform: capitalize;
+      font-size: 1rem;
+      font-family: 'Open Sans', sans-serif;
+    }
+    .ticket-social-icons{
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .ticket-page-buy-btn{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 70px;
+        padding: 10px 20px;
+        border: unset;
+        border-radius: 14px;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 1rem;
+        cursor: pointer;
+        background-color: #152D15;
+        color: #FDFEFE;
+    }
+   .ticket-page-left{
+    width: 45%;
+    height: 430px;
+    padding: 2em;
+   }
+   .product-img-cover{
+       width: 100%;
+       height: 100%;
+       object-fit: cover;
+   }
+   .ticket-page-bottom{
+       width: 90%;
+     margin: 0 auto;
+       display: flex;
+       justify-content: space-between;
+        
+   }
+   .metamsk-icon{
+       width: 55px;
+   }
+   .ticket-tips{
+    font-family: "Segoe UI";
+   }
+   .step{
+       display: flex;
+       width: 90%;
+       justify-content: space-between;  
+       margin-bottom: 10px; 
+     }
+     .tip-title{
+        
+       text-align: center;
+      
+       font-family: 'Trirong', serif;
+     }
+     .mana-icon{
+         margin-left: 5px;
+     }
+     .ticket-bottom-left{
+        width: 40%;
+       font-family: "Segoe UI";
+      color: rgba(0, 0, 0, 0.85)
+     }
+     .ticket-bottom-right{
+         width: 40%;
+     }
+     .checkout-container{
+         width: 100%;
+         height: 100vh;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+        
+     }
+     .checkout-card{
+        width: 260px;
+        height: 389px;
+        padding: 10px;
+        background-color: #e9edf1;
+        border-radius: 14px;
+          
+       
+    }
+     .fee-container{
+         display: flex;
+         justify-content: space-between;
+     }
+     .buy-for-container{
+         display: flex;
+         justify-content: space-between;
+     }
+     .checkout-header{
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         margin-bottom: 6px;
+     }
+     .checkout-name{
+
+     }
+     .buy-for-input{
+         width: 70%;
+         border: unset;
+         border-radius: 14px;
+         background-color: inherit;
+         border: .4px solid #ebf6ff;
+     }
+     .buy-for-input:focus{
+      outline: none;
+     }
+     .buy-for-btn{
+         padding: 6px 15px;
+         border: unset;
+         border-radius: 9px;
+         cursor: pointer;
+         background-color: #152D15;
+         color: white;
+     }
+     .fee-title{
+         text-transform: capitalize;
+         font-family: 'Trirong', serif;
+     }
+     .fee-symbol{
+         font-size: .8rem;
+         font-weight: 600;
+     }
+     .fee-total-symbol{
+         font-size: 1.6rem;
+         text-transform: uppercase;
+     }
+     .total-amount{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Noto Sans', sans-serif;
+        
+     }
+     .checkout-btn{
+         width: 100%;
+         padding: 10px 20px;
+         text-transform: capitalize;
+         border: unset;
+         background-color: #152D15;
+         border-radius: 14px;
+         color: white;
+         font-size: 1rem;
+         cursor: pointer;
+
+     }
+     .checkout-intro{
+         display: flex;
+         justify-content: space-between;
+     }
+     .checkout-name{
+         text-align: center;
+     }
+   
+  
