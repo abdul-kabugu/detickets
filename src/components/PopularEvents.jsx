@@ -8,6 +8,7 @@ import {Link} from 'react-router-dom'
   
 
 const PopularEvents = () => {
+
     console.log(mostPopular)
     return <div className='popular-container'>
     <CarouselProvider

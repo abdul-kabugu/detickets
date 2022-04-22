@@ -619,5 +619,127 @@
      .checkout-name{
          text-align: center;
      }
+
+     /*DASHBORD  STYLES */
+     .left-tab{
+         width: 256px;
+         height: 100vh;
+         background-color: rgb(0,21,41);
+     }
+     .create-btn{
+        width: 70%;
+         text-align: center;
+         margin-top: 70%;
+         margin-left: 20px;
+         padding: 10px 20px;
+         font-size: 1.3rem;
+         background-color: #096dd9;
+         color: white;
+         border-radius: 14px;
+         border: unset;
+         cursor: pointer;
+     }
+     .logo-image{
+         width: 30px;
+         cursor: pointer;
+     }
+     .logo-container{
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+     }
+     .dashbord-tab-container{
+         width: 100%;
+     }
+     .dashbord-nav{
+         width: 100%;
+         
+         height: 60px;
+         
+         display: flex;
+      align-items: center;
+     
+     
+     }
+     .connect-btn{
+      margin-left: auto;
+      margin-right: 15px;
+      text-align: center;
+      padding: 10px 20px;
+      font-size: 1.3rem;
+      background-color: #096dd9;
+      color: white;
+      border-radius: 14px;
+      border: unset;
+      cursor: pointer;
+     }
+     .dashbord-tab-body{
+         padding: 20px;
+         background-color: rgb(243,244,246);
+         
+     }
+     .dashbord-tab-tickets{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+     }
+     .ticket-card-container{
+          
+      width: 320px;
+      margin-left: 10px;
+      background-color: inherit;
+      position: relative;
+      margin-bottom: 30px;
+     }
+     .ticket-image{ width: 100%;
+     min-width: 270px;
+     max-height: 200px;
+     object-fit: cover;
+     border-radius: 14px 14px 0px 0px;
+     cursor: pointer;
+     }
+     .ticket-card-bottom{
+        display: flex;
+        justify-content: space-between;
+        background-color: #F6F5EA;
+       
+        width: 95%;
+         margin: 0 auto;
+         border-radius: 14px;
+        position: absolute;
+         top: 170px;
+          left: 10px;
+        padding: 12px 20px;
+        
+     }
+     .myevents-container{
+         width: 100%;
+         display: flex;
+     }
+     .myevents-body{
+         width: 100%;
+     }
+     .myevents-list-container{
+         background-color: rgb(243,244,246);
+         padding: 20px;
+     }
+     .addnew-btn{
+         margin-right: 10px;
+         padding: 10px 20px;
+         font-size: 15px;
+         border-radius: 14px;
+         border: unset;
+         background-color: #096dd9;
+         color: white;
+         cursor: pointer;
+     }
+     .myevents-list-header{
+         display: flex;
+         width: 100%;
+         justify-content: space-between;
+         align-items: center;
+         margin-bottom: 30px;
+     }
+
    
   
