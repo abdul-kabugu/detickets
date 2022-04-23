@@ -622,9 +622,20 @@
 
      /*DASHBORD  STYLES */
      .left-tab{
-         width: 256px;
+        width: 256px;
+          
+     
          height: 100vh;
+         
          background-color: rgb(0,21,41);
+        
+     }
+     .left-tab-position{
+        /*width: 256px;*/
+        height: 100vh;
+         position: fixed;
+        background-color: rgb(0,21,41);
+        
      }
      .create-btn{
         width: 70%;
@@ -739,6 +750,99 @@
          justify-content: space-between;
          align-items: center;
          margin-bottom: 30px;
+     }
+     .create-event-container{
+         display: flex;
+     }
+     .create-body-container{
+         width: 81%;
+         margin-left: auto;
+         
+         padding: 15px;
+     }
+
+     .create-body{
+         background-color: rgb(243,244,246);
+         padding: 20px;
+     }
+     
+     .event-info-section{
+         
+         display: flex;
+         justify-content: space-between;
+         margin-top: 20px;
+         
+     }
+     .section-header{
+         width: 30%;
+     }
+     .section-body{
+         width: 70%;
+         
+     }
+     .section-title{
+        font-family: 'Trirong', serif;
+        font-weight: 300;
+        text-transform: uppercase;
+     }
+     .section-description{
+         font-size: 1.1rem;
+     }
+     .event-name-input{
+        padding: 10px  30px;
+        border: 1px solid  #bfbfbf;
+        
+        border-radius: 14px;
+     }
+     .event-name-input:focus{
+       
+         outline: none;
+     }
+     .section-event-image{
+         margin-top: 20px;
+         margin-bottom: 20px;
+     }
+     .section-event-image, .section-input, .section-description-input, .ticket-duration-section{
+         padding: 10px 20px ;
+         border: 2px solid  #d2c7c727;
+     }
+     .event-cover-image{
+         
+         width: 95%;
+         padding:  30px 35px;
+         
+         border: 3px dotted #bfbfbf;
+         border-radius: 7px;
+
+     }
+     .event-description-input{
+         width: 90%;
+         border-radius: 10px;
+         border: 1px solid  #bfbfbf;
+     }
+     .ticket-infos{
+        
+         display: flex;
+         margin-top: 15px;
+     }
+     .ticket-info-section{
+         display: flex;
+         justify-content: space-between;
+         flex-wrap: wrap;
+     }
+     .event-ticket-duration{
+         border: unset;
+         border-radius: 14px;
+         padding: 10px 15px;
+         border: 1px solid  #bfbfbf;
+     }
+     .event-ticket-duration:focus{
+        
+         outline: none;
+     }
+     .royalty-infos{
+         display: flex;
+         margin-top: 20px;
      }
 
    

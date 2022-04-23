@@ -8,6 +8,7 @@ import Dasboard from "./pages/Dasboard";
 import MyEvents from "./components/MyEvents";
 import MyCustomers from "./components/MyCustomers";
 import MyOrders from "./components/MyOrders";
+import CreateEvent from "./pages/CreateEvent";
 
 function App() {
   return (
@@ -30,6 +31,10 @@ function App() {
     </Route>
     <Route exact path="/customers">
     <MyCustomers />
+    </Route>
+
+    <Route exact path="/create">
+    <CreateEvent />
     </Route>
 
     

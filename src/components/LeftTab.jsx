@@ -38,7 +38,7 @@ const LeftTab = () => {
           <button style={{color: "black", marginTop: "200px"}}>buy</button>
       </Item>
    </Menu>
-   <button className='create-btn'> <PlusCircleOutlined style={{fontSize: "22px"}}/> New event</button>
+     <Link to="/create"><button className='create-btn'> <PlusCircleOutlined style={{fontSize: "22px"}}/> New event</button></Link>
    </div>
 }
 
