@@ -74,7 +74,7 @@ const EventsTable = () => {
       ];
       
     return <div className='event-table-container'>
-     <Table dataSource={dataSource} columns={columns} pagination={false} style={{color: "red"}}/>;
+     <Table dataSource={dataSource} columns={columns} pagination={false} style={{color: "red"}} rowClassName="customer-row"/>;
     </div>;
 }
 

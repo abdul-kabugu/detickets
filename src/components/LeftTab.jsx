@@ -24,11 +24,11 @@ const LeftTab = () => {
        <Item icon={<CalendarOutlined  style={{fontSize: "22px"}}/>}  style={{fontSize: "22px"}}>
            <Link to="/myevents">Events</Link>
        </Item>
-       <Item icon={<InboxOutlined  style={{fontSize: "22px"}}/>} style={{fontSize: "22px"}}>
+       {/*<Item icon={<InboxOutlined  style={{fontSize: "22px"}}/>} style={{fontSize: "22px"}}>
            <Link to="/myevents">Orders</Link>
-       </Item>
+       </Item>*/}
        <Item icon={<UsergroupAddOutlined  style={{fontSize: "22px"}}/>}  style={{fontSize: "22px"}}>
-           <Link to="/myevents">Customers</Link>
+           <Link to="/customers">Customers</Link>
        </Item>
        <Item icon={<SketchOutlined  style={{fontSize: "22px"}}/>}  style={{fontSize: "22px"}}>
            Airdrop

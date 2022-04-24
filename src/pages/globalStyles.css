@@ -844,6 +844,85 @@
          display: flex;
          margin-top: 20px;
      }
+     .submit-event-btn{
+         padding: 10px  20px;
+         width: 200px;
+         
+         background-color: #000000;
+         color: white;
+         border-radius: 14px;
+         font-size: 1.3rem;
+         margin-left: auto;
+         cursor: pointer;
+         outline: none;
+         
+         
+     }
+     .customers-container{
+         display: flex;
+     }
+  .costomer-body-container{
+      width: 81%;
+      
+      margin-left: auto;
+      
+  }
+  .customer-body-content{
+     
+     
+       background-color: rgb(243,244,246);
+      padding: 20px;
+  }
+  .customer-row{
+      background-color: rgb(243,244,246);
+      border-radius: 7px;
+  }
+  .user-profile-container{
+      width: 100%;
+      height: 100vh;
+      background-color: #f0fdff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
+  }
+  .user-profile-content{
+      width: 500px;
+         background: linear-gradient(#f0f8ff, #f2e6f2);
+      padding: 40px;
+      border: 2px solid rgb(224, 211, 211);
+      border-radius: 7px;
+  }
+  .info-title{
+      margin-bottom: 3px;
+  }
+  .info-description{
+      
+      margin: 0;
+  }
+  .name-imput{
+      width: 80%;
+      padding: 10px 20px;
+      border-radius: 14px;
+      border: 1px solid #b09c9c;
+  }
+  .name-imput:focus{
+      outline: none;
+  }
+  .save-info-btn{
+      width: 50%;
+       border: unset;
+      padding: 10px 20px;
+     margin: 0 auto;
+     margin-top: 30px;
+     font-size: 1.1rem;
+     background-color: #000000;
+     color:  white;
+     cursor: pointer;
+     border-radius: 14px;
+  }
+  .nfo-container{
+      margin-bottom: 100px;
+  }
    
   

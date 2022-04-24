@@ -14,7 +14,7 @@ const Navbar = () => {
                <Link to='/marketplace'> <li className='list-item '>events</li></Link>
                <Link to="/create-ticket"> <li className='list-item '>how it works</li> </Link>
                 <Link to="/dashboard"><li className='list-item '>dashboard </li></Link>
-              {/*<Link to="my-tickets"> <li className='list-item'>my tickets</li></Link> */}
+              <Link to="user"> <li className='list-item'>user</li></Link> 
             </ul>
         </div>
         </div>

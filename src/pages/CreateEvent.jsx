@@ -1,8 +1,9 @@
 import { Switch, Upload } from 'antd';
 import React, {useState} from 'react';
-
+import {unlockABI} from '../contracts/UnlockABI'
 import DashbordNav from '../components/DashbordNav';
 import LeftTab from '../components/LeftTab';
+import { useMoralis, useWeb3ExecuteFunction } from 'react-moralis';
 
 
 const CreateEvent = () => {
@@ -17,6 +18,45 @@ const CreateEvent = () => {
     const [ticketPrice, setTicketPrice]  =  useState("")
     const [eventDescription, setEventDescriptin]  =  useState("")
     const [isTransferable, setIsTransferable]  =  useState( false)
+    const {Moralis, authenticate} = useMoralis()
+
+    const unlockAddress = '0xDcDE260Df00ba86889e8B112DfBe1A4945B35CA9'
+    const usdcContract  = "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+    const contractExcuter = useWeb3ExecuteFunction()
+     console.log(unlockABI)
+    // create event  function
+
+    async function createEventFunc() {
+        let options = {
+          contractAddress:  unlockAddress,
+          functionName: "createLock",
+           abi: unlockABI,
+           //Parameters 
+           params: {
+            
+            _expirationDuration: eventDuration,
+            _tokenAddress: usdcContract,
+            _keyPrice: ticketPrice,
+            _maxNumberOfKeys: ticketQuantity,
+            _lockName: eventName, 
+            //_salt: "abdul"
+             
+           },
+          
+           
+        }
+        await contractExcuter.fetch({
+          params: options,
+          onSuccess:() =>{
+            alert("you  have  succesful  ran  function")
+          },
+          onError: (errori) =>{
+            alert(errori.message)
+          }
+        })
+        console.log("clicked button")
+      }
+
     return <div className='create-event-container'>
     <div className='left-tab-position'>
       <LeftTab />
@@ -108,7 +148,9 @@ const CreateEvent = () => {
                 </div>
           </div>
           </div>
+          <button onClick={createEventFunc} className="submit-event-btn">submit</button>
       </div>
+     
     </div>;
 }
 
